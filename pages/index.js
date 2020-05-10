@@ -18,9 +18,9 @@ export default function Home() {
             Clique abaixo e veja uma!
         </p>
 
-          <button className="card" href="/mensagem">
+          <a className="card" href="/mensagem">
             Quero uma frase!
-          </button>
+          </a>
       </main>
 
       <footer>
@@ -61,21 +61,8 @@ export default function Home() {
           align-items: center;
         }
 
-        footer img {
-          margin-left: 0.5rem;
-        }
-
-        footer a {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-
-        a {
-          color: inherit;
-          text-decoration: none;
-        }
-
+    
+        
         .title {
           margin: 0;
           line-height: 1.15;
@@ -138,6 +125,17 @@ export default function Home() {
         * {
           box-sizing: border-box;
         }
+        footer a {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+
+        a {
+          color: inherit;
+          text-decoration: none;
+        }
+
       `}</style>
     </div>
   )
